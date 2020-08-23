@@ -4,7 +4,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@MapperScan("com.example.multidatasource.*.mapper")
+@MapperScan("com.example.multidatasource.*.mapper.*")
 @SpringBootApplication
 public class MultiDatasourceApplication {
 

@@ -1,4 +1,4 @@
-package com.example.multidatasource.demo.mapper;
+package com.example.multidatasource.demo.mapper.mysql;
 
 import org.springframework.stereotype.Repository;
 
