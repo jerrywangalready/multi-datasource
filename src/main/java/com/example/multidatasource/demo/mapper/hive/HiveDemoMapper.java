@@ -17,6 +17,6 @@ import java.util.Map;
 @Repository
 public interface HiveDemoMapper {
 
-	List<Map<String, String>> getTest();
+	List<Map<String, Object>> getTest();
 
 }
